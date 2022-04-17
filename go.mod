@@ -3,7 +3,7 @@ module rpcxA
 go 1.18
 
 require (
-	github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417063934-15bba4730b71
+	github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417073855-bbfc1ef792cf
 	github.com/Gouplook/testtools v0.0.0-20220415061744-23b702d71632
 	github.com/smallnest/rpcx v1.7.4
 )
