@@ -29,4 +29,5 @@ func main() {
 	}
 
 	fmt.Println(servertool.Add(12, 20))
+	fmt.Println(servertool.Add(12, 20))
 }
