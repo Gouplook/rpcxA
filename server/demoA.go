@@ -2,15 +2,16 @@ package server
 
 import (
 	"context"
+	"github.com/Gouplook/rpcxinterfaxe/interface/demoA"
 	"rpcxA/logics"
 )
 
 type DemoA struct {
 }
 
-func (d *DemoA) Add(ctx context.Context, a int, b int, rs *int) error {
+func (d *DemoA) Add(ctx context.Context, args demoA.ArgsAdd, reply demoA.ReplyAdd) error {
 	logic := new(logics.DemoALogic)
-	err := logic.Add(ctx, a, b, rs)
+	err := logic.Add(ctx, args, reply)
 	if err != nil {
 		panic(err)
 	}

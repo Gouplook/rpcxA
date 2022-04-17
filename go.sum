@@ -10,6 +10,8 @@ git.apache.org/thrift.git v0.0.0-20180902110319-2566ecd5d999/go.mod h1:fPE2ZNJGy
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/ChimeraCoder/gojson v1.1.0/go.mod h1:nYbTQlu6hv8PETM15J927yM0zGj3njIldp72UT1MqSw=
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
+github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417063934-15bba4730b71 h1:Dzn+o4oe2LmXsLL5h/DS7RSaAJawTmm3C7PcfCrJLsA=
+github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417063934-15bba4730b71/go.mod h1:hrjWn25KBs9QTjMMQ+hNi8hzyVHmoSa27wSAbW1y+Gg=
 github.com/Gouplook/testtools v0.0.0-20220415061744-23b702d71632 h1:N7YV9TQkFKKNhvcXpJh+NjN92EjDs320guslAELi8Ck=
 github.com/Gouplook/testtools v0.0.0-20220415061744-23b702d71632/go.mod h1:c2RLvt7qRV7Nqq6swCHLSwTHdHdygfLshPLqJrq+O3w=
 github.com/akutz/memconn v0.1.0 h1:NawI0TORU4hcOMsMr11g7vwlCdkYeLKXBcxWu2W/P8A=
