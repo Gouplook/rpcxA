@@ -3,10 +3,15 @@ module rpcxA
 go 1.18
 
 require (
+	github.com/Gouplook/testtools v0.0.0-20220415061744-23b702d71632
+	github.com/smallnest/rpcx v1.7.4
+)
+
+require (
 	github.com/akutz/memconn v0.1.0 // indirect
 	github.com/apache/thrift v0.16.0 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
-	github.com/fatih/color v1.13.0 // indirect
+	github.com/fatih/color v1.13.0 // indirect; indirectgo
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -28,7 +33,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/smallnest/quick v0.0.0-20220103065406-780def6371e6 // indirect
-	github.com/smallnest/rpcx v1.7.4 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
 	github.com/templexxx/cpufeat v0.0.0-20180724012125-cef66df7f161 // indirect
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect

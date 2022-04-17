@@ -2,11 +2,19 @@ package main
 
 import (
 	"fmt"
+	"github.com/Gouplook/testtools/servertool"
 	"github.com/smallnest/rpcx/server"
 	"rpcxA/routers"
 )
 
+// <your_token>：刚刚生成的token
+// <REPO>：要访问的仓库名称，当前仓库的名称
+// git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
+// 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
+
 func main() {
+
+	// 添加日志系统
 
 	//启动服务
 	rpcServer := server.NewServer()
@@ -20,4 +28,5 @@ func main() {
 		fmt.Println("rpcServer fail")
 	}
 
+	fmt.Println(servertool.Add(12, 20))
 }
