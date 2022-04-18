@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Gouplook/testtools/servertool"
+	"github.com/Gouplook/dzgin"
 	"github.com/smallnest/rpcx/server"
 	"rpcxA/routers"
 )
@@ -16,18 +16,17 @@ func main() {
 
 	// 添加日志系统
 
+	fmt.Println("service .....==")
 	//启动服务
 	rpcServer := server.NewServer()
 	routers.InitRpcRouters(rpcServer)
 
 	//启动链路追踪
-
-	address := "0.0.0.0:9001"
+	//address := "0.0.0.0:9001"
+	address := fmt.Sprintf("%v:%v", dzgin.AppConfig.String("rpchost"), dzgin.AppConfig.String("rpcport"))
 	if err := rpcServer.Serve("tcp", address); err != nil {
 		// 打印日志
 		fmt.Println("rpcServer fail")
 	}
 
-	fmt.Println(servertool.Add(12, 20))
-	fmt.Println(servertool.Add(12, 20))
 }

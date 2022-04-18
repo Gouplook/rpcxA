@@ -1,4 +1,4 @@
-package server
+package service
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 type DemoA struct {
 }
 
-func (d *DemoA) Add(ctx context.Context, args demoA.ArgsAdd, reply demoA.ReplyAdd) error {
+func (d *DemoA) Add(ctx context.Context, args *demoA.ArgsAdd, reply *demoA.ReplyAdd) error {
 	logic := new(logics.DemoALogic)
 	err := logic.Add(ctx, args, reply)
 	if err != nil {
