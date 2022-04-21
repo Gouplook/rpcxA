@@ -1,6 +1,6 @@
 
 #全局配置
-appname = rpc_A
+appname = rpcx_A
 runmode = "${MSF_ENV||dev}"
 
 #测试环境

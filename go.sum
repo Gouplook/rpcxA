@@ -10,8 +10,8 @@ git.apache.org/thrift.git v0.0.0-20180902110319-2566ecd5d999/go.mod h1:fPE2ZNJGy
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/ChimeraCoder/gojson v1.1.0/go.mod h1:nYbTQlu6hv8PETM15J927yM0zGj3njIldp72UT1MqSw=
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
-github.com/Gouplook/dzgin v0.1.1 h1:opDgXVraeLI2h4JOWMtvnAVyhNcMqX37xSzoDU2Zno8=
-github.com/Gouplook/dzgin v0.1.1/go.mod h1:TARn9u1avihaeCr6EVcovZf0cFf+3Gf5Gm9upGV22lE=
+github.com/Gouplook/dzgin v0.1.3-0.20220418092555-416ec46952bb h1:YXW5KfSOFgNBUBxjZqq4SDYZUcyFUjavvdtMFtpgKCQ=
+github.com/Gouplook/dzgin v0.1.3-0.20220418092555-416ec46952bb/go.mod h1:U8U1oUG1mZ9/bnFoaB7bqeJulyrhZpKq3XYFFo9YoPU=
 github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417073855-bbfc1ef792cf h1:HuupcWYtVM0Aum73J+LAfVHjSYCDKw0RFTRYjVZh0fk=
 github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417073855-bbfc1ef792cf/go.mod h1:hrjWn25KBs9QTjMMQ+hNi8hzyVHmoSa27wSAbW1y+Gg=
 github.com/akutz/memconn v0.1.0 h1:NawI0TORU4hcOMsMr11g7vwlCdkYeLKXBcxWu2W/P8A=

@@ -3,7 +3,7 @@ module rpcxA
 go 1.18
 
 require (
-	github.com/Gouplook/dzgin v0.1.1
+	github.com/Gouplook/dzgin v0.1.3-0.20220418092555-416ec46952bb
 	github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417073855-bbfc1ef792cf
 	github.com/smallnest/rpcx v1.7.4
 )

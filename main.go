@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/Gouplook/dzbase/common/plugins/jaeger"
 	"github.com/Gouplook/dzgin"
 	"github.com/smallnest/rpcx/server"
 	"rpcxA/routers"
@@ -22,7 +23,13 @@ func main() {
 	routers.InitRpcRouters(rpcServer)
 
 	//启动链路追踪
-	//address := "0.0.0.0:9001"
+	_, closer, err := jaeger.OpenJaeger()
+	if err != nil && closer != nil {
+		defer closer.Close()
+		//
+		rpcServer.Plugins.Add(p)
+	}
+
 	address := fmt.Sprintf("%v:%v", dzgin.AppConfig.String("rpchost"), dzgin.AppConfig.String("rpcport"))
 	if err := rpcServer.Serve("tcp", address); err != nil {
 		// 打印日志
