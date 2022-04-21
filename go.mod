@@ -3,8 +3,10 @@ module rpcxA
 go 1.18
 
 require (
+	github.com/Gouplook/dzbase v0.1.0
 	github.com/Gouplook/dzgin v0.1.3-0.20220418092555-416ec46952bb
 	github.com/Gouplook/rpcxinterfaxe v0.0.0-20220417073855-bbfc1ef792cf
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/smallnest/rpcx v1.7.4
 )
 
@@ -20,7 +22,10 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
+	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
+	go.uber.org/atomic v1.9.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
